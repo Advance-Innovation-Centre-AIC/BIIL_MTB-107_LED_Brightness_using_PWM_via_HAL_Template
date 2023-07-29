@@ -46,7 +46,7 @@ TARGET=APP_CY8CKIT-062S2-43012
 #
 # If APPNAME is edited, ensure to update or regenerate launch
 # configurations for your IDE.
-APPNAME=mtb-example-hal-gpio-interrupt
+APPNAME=mtb-example-empty-app
 
 # Name of toolchain to use. Options include:
 #

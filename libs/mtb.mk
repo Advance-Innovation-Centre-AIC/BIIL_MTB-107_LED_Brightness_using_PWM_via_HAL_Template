@@ -10,17 +10,15 @@
 SEARCH_TARGET_APP_CY8CKIT-062S2-43012=bsps/TARGET_APP_CY8CKIT-062S2-43012
 
 # The search paths for the included middleware
-SEARCH_retarget-io=../mtb_shared/retarget-io/release-v1.4.0
-SEARCH_cat1cm0p=../mtb_shared/cat1cm0p/release-v1.0.0
+SEARCH_cat1cm0p=../mtb_shared/cat1cm0p/release-v1.1.0
 SEARCH_cmsis=../mtb_shared/cmsis/release-v5.8.0
-SEARCH_core-lib=../mtb_shared/core-lib/release-v1.3.1
-SEARCH_core-make=../mtb_shared/core-make/release-v3.0.3
-SEARCH_mtb-hal-cat1=../mtb_shared/mtb-hal-cat1/release-v2.3.0
-SEARCH_mtb-pdl-cat1=../mtb_shared/mtb-pdl-cat1/release-v3.3.1
-SEARCH_recipe-make-cat1a=../mtb_shared/recipe-make-cat1a/release-v2.0.0
+SEARCH_core-lib=../mtb_shared/core-lib/release-v1.4.0
+SEARCH_core-make=../mtb_shared/core-make/release-v3.2.1
+SEARCH_mtb-hal-cat1=../mtb_shared/mtb-hal-cat1/release-v2.4.1
+SEARCH_mtb-pdl-cat1=../mtb_shared/mtb-pdl-cat1/release-v3.4.0
+SEARCH_recipe-make-cat1a=../mtb_shared/recipe-make-cat1a/release-v2.1.1
 
 # Search libraries added to build
-SEARCH_MTB_MK+=$(SEARCH_retarget-io)
 SEARCH_MTB_MK+=$(SEARCH_cat1cm0p)
 SEARCH_MTB_MK+=$(SEARCH_cmsis)
 SEARCH_MTB_MK+=$(SEARCH_core-lib)
@@ -30,7 +28,6 @@ SEARCH_MTB_MK+=$(SEARCH_mtb-pdl-cat1)
 SEARCH_MTB_MK+=$(SEARCH_recipe-make-cat1a)
 
 -include $(CY_INTERNAL_APP_PATH)/importedbsp.mk
-COMPONENTS += MW_RETARGET_IO
 COMPONENTS += MW_CAT1CM0P
 COMPONENTS += MW_CMSIS
 COMPONENTS += MW_CORE_LIB
@@ -110,4 +107,12 @@ config_lin:
 lin-configurator:
 	$(CY_TOOL_mtblaunch_EXE_ABS) --project . --short-name lin-configurator
 .PHONY: lin-configurator
+
+config_ml:
+	$(CY_TOOL_mtblaunch_EXE_ABS) --project . --short-name ml-configurator
+.PHONY: config_ml
+
+ml-configurator:
+	$(CY_TOOL_mtblaunch_EXE_ABS) --project . --short-name ml-configurator
+.PHONY: ml-configurator
 

@@ -4,74 +4,78 @@
 # the next time 'make getlibs' is run.
 #
 modlibs:
-	(cd HAL_GPIO_Interrupt; make modlibs)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make modlibs)
 .PHONY: modlibs
 
 library-manager:
-	(cd HAL_GPIO_Interrupt; make library-manager)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make library-manager)
 .PHONY: library-manager
 
 qspi-configurator:
-	(cd HAL_GPIO_Interrupt; make qspi-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make qspi-configurator)
 .PHONY: qspi-configurator
 
 config:
-	(cd HAL_GPIO_Interrupt; make config)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make config)
 .PHONY: config
 
 device-configurator:
-	(cd HAL_GPIO_Interrupt; make device-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make device-configurator)
 .PHONY: device-configurator
 
 capsense-configurator:
-	(cd HAL_GPIO_Interrupt; make capsense-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make capsense-configurator)
 .PHONY: capsense-configurator
 
 capsense-tuner:
-	(cd HAL_GPIO_Interrupt; make capsense-tuner)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make capsense-tuner)
 .PHONY: capsense-tuner
 
 seglcd-configurator:
-	(cd HAL_GPIO_Interrupt; make seglcd-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make seglcd-configurator)
 .PHONY: seglcd-configurator
 
 bsp-assistant:
-	(cd HAL_GPIO_Interrupt; make bsp-assistant)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make bsp-assistant)
 .PHONY: bsp-assistant
 
 config_bt:
-	(cd HAL_GPIO_Interrupt; make config_bt)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make config_bt)
 .PHONY: config_bt
 
 bt-configurator:
-	(cd HAL_GPIO_Interrupt; make bt-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make bt-configurator)
 .PHONY: bt-configurator
 
 config_usbdev:
-	(cd HAL_GPIO_Interrupt; make config_usbdev)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make config_usbdev)
 .PHONY: config_usbdev
 
 usbdev-configurator:
-	(cd HAL_GPIO_Interrupt; make usbdev-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make usbdev-configurator)
 .PHONY: usbdev-configurator
 
 smartio-configurator:
-	(cd HAL_GPIO_Interrupt; make smartio-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make smartio-configurator)
 .PHONY: smartio-configurator
 
 config_ezpd:
-	(cd HAL_GPIO_Interrupt; make config_ezpd)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make config_ezpd)
 .PHONY: config_ezpd
 
 ez-pd-configurator:
-	(cd HAL_GPIO_Interrupt; make ez-pd-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make ez-pd-configurator)
 .PHONY: ez-pd-configurator
 
 config_lin:
-	(cd HAL_GPIO_Interrupt; make config_lin)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make config_lin)
 .PHONY: config_lin
 
 lin-configurator:
-	(cd HAL_GPIO_Interrupt; make lin-configurator)
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make lin-configurator)
 .PHONY: lin-configurator
+
+config_ml:
+	(cd BIIL_MTB-107_LED_Brightness_using_PWM_via_HAL_Template; make config_ml)
+.PHONY: config_ml
 
