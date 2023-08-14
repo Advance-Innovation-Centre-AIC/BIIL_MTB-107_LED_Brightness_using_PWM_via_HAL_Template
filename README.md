@@ -11,18 +11,7 @@ This lab demonstrates the process of controlling LED brightness using PWM via Ha
 
 ## 🚩 Let start
 ### Create Application 
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/9772aa4a-2a04-4e57-bf5b-68444ed1e38d)
-
-### Use Device Configurator and set the UART and ADC pin
-#### Enable UART Pin:
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/3c02deae-965c-4ba4-a06c-dfe6de2a206b)
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/a7a53d7d-3bcd-41a3-a7de-f73e0bc8fa23)
-
-##### Config ADC
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/50c27970-64c7-40af-a377-ed3c40eea99f)
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/39e9bd34-81d0-4f23-bde7-f3699df45acf)
-
-
+![image](https://2700952642-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MClo3nC-1US0rbK8Qau%2Fuploads%2FjDh47ZcPEZxIigyTdjvN%2Fimage.png?alt=media&token=a509413f-9172-47c6-b379-d9aae519eaa2)
 
 ### Coding
 Coding: Open the main.c file and add the following code to the main(void) function.
@@ -56,12 +45,12 @@ int main(void)
 }
 ```
 ### Build the Application      
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/1763207e-5360-4b37-92cb-14b9263fcf97)
+![image](https://2700952642-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MClo3nC-1US0rbK8Qau%2Fuploads%2Fu1UvN815NDMV6gYNSYLT%2Fimage.png?alt=media&token=43d9a068-49c2-425c-a88a-cc7b5b187cb3)
 
 
 
 ### Launching the Application      
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/247d4903-51d7-47a0-a7c7-dad6bbe53920)
+![image](https://2700952642-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MClo3nC-1US0rbK8Qau%2Fuploads%2F8pmvOcmTss6ShyjsnBEG%2Fimage.png?alt=media&token=83935bea-f354-4985-bebf-d69971f6ea39)
 
   Note: Before launching the program to the board, make sure that you have already connected the board to the computer through a USB cable.    
   ![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-107_Read_potentiometer_sensor_value_via_an_ADC_HAL_Template/assets/88732241/c9966b5b-702f-478e-bbe8-ba9e277800d2)
@@ -69,7 +58,7 @@ int main(void)
 
 ### Result     
   Once the device is set up, run the program. The microcontroller will continuously read the potentiometer's analog value, convert it to a digital signal through the ADC, and then convert that signal to millivolts using the PDL functions.
-![image](https://github.com/Advance-Innovation-Centre-AIC/BIIL_MTB-108_Read_potentiometer_sensor_value_via_an_ADC_PDL_Template/assets/88732241/73fc9907-773d-4f9d-8137-8aa1ca84ddbd)
+![image](https://2700952642-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MClo3nC-1US0rbK8Qau%2Fuploads%2FN4e76IF1ahw2YCVN72i7%2Fimage.png?alt=media&token=8ccebae0-ec96-4c44-9ee8-3669bb7dd0cb)
 
 ### 🎉  Congratulations! You can now complete Lab108
 
@@ -99,7 +88,7 @@ Infineon provides a wealth of data at www.infineon.com to help you select the ri
 
 ## Document history
 
-Document title: BILL_MTB-108 – Read potentiometer sensor value via an ADC PDL
+Document title: BILL_MTB-109 – Read potentiometer sensor value via an ADC PDL
 
  Version | Description of change
  ------- | ---------------------
